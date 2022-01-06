@@ -118,7 +118,9 @@ section{
 .projects{
     width: 45%;
     margin-right: 10%;
-    box-shadow: 10px 10px 40px #437cbd;
+    box-shadow: 0 20px 40px #437cbd;
+    border-radius: 30px;
+    overflow: hidden;
 }
 .projects:last-child{
     margin-right: 0;
