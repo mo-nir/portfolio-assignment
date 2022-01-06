@@ -4,29 +4,43 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-img{
-    width: 100%;
-}
-section{
-    display: flex;
-    margin-bottom: 100px;
-    margin: 2% 10%;
-}
-.text-area{
-    width: 60%;
-    margin-right: 5%;
-}
-.image-area{
-    width: 35%;
-}
 h1{
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
+    color: #000;
+}
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #000;
+}
+h4{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
 }
 p{
     color: #3E3E3E;
 }
-.text-area h1{
+img{
+    width: 100%;
+}
+section{
+    margin: 2% 10%;
+    margin-bottom: 150px;
+}
+.flex{
+    display: flex;
+}
+.banner-text-container{
+    width: 60%;
+    margin-right: 5%;
+}
+.banner-image-container{
+    width: 35%;
+}
+.banner-text-container h1{
     border-left: 4px solid #FF5959;
     padding-left: 15px;
 }
@@ -42,4 +56,25 @@ p{
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
+}
+
+.mission-area-item{
+    margin-right: 25px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.mission-area-item:last-child{
+    margin-right: 0;
+}
+.item1{
+    background-color: #edf5f6;
+}
+.item2{
+    background-color: #ffeeee;
+}
+.item3{
+    background-color: #fff4d6;
+}
+.mission-area-item img{
+    max-width: 150px;
 }
