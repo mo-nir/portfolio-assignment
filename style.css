@@ -111,6 +111,19 @@ section{
     margin-left: 5%;
 }
 
+/* my-recent-projects-area */
+.projects-area h2 {
+    margin-bottom: 25px;
+}
+.projects{
+    width: 45%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 40px #437cbd;
+}
+.projects:last-child{
+    margin-right: 0;
+}
+
 /* footer */
 footer{
     background-color: #000;
